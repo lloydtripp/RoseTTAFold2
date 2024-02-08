@@ -12,3 +12,4 @@ dependencies:
   - dglteam/label/cu117::dgl
   - pyg::pyg
   - bioconda::hhsuite
+  - pandas=2.2.0
