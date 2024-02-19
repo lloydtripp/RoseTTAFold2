@@ -85,5 +85,5 @@ mkdir -p "$output_directory"
 source activate RF2
 # Run RF2
 # TO DO: Parameterize the RF2 script location.
-/storage1/fs1/ghaller/Active/lloydt/LT2_Protein-Modeling/RosettaFold2/run_RF2.sh $fasta_file_location -o $output_directory --pair $additional_parameters 
+/storage1/fs1/ghaller/Active/lloydt/LT2_Protein-Modeling/RosettaFold2/run_RF2.sh $fasta_file_location -o $output_directory $additional_parameters 
 
